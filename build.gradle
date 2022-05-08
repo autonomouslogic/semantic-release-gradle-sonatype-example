@@ -1,0 +1,73 @@
+plugins {
+    id "java"
+    id "idea"
+    id "org.danilopianini.git-sensitive-semantic-versioning-gradle-plugin" version "0.3.11"
+    id "maven-publish"
+    id "signing"
+    id "io.github.gradle-nexus.publish-plugin" version "1.1.0"
+}
+
+group "com.autonomouslogic.semanticrelease"
+
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+java {
+    withJavadocJar()
+    withSourcesJar()
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            pom {
+                name = "Semantic Release Gradle Sonatype Example"
+                description = "Example setup for Semantic Release with Gradle publishing to Sonatype."
+                url = "https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example"
+                licenses {
+                    license {
+                        name = "MIT-0"
+                        url = "https://spdx.org/licenses/MIT-0.html"
+                    }
+                }
+                developers {
+                    developer {
+                        id = "kennethjor"
+                        name = "Kenneth Jørgensen"
+                        email = "kenneth@autonomouslogic.com"
+                    }
+                }
+                scm {
+                    connection = "scm:git:git://github.com:autonomouslogic/semantic-release-gradle-sonatype-example.git"
+                    developerConnection = "scm:git:ssh://github.com:autonomouslogic/semantic-release-gradle-sonatype-example.git"
+                    url = "https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example"
+                }
+            }
+            from(components.java)
+        }
+    }
+}
+
+signing {
+    sign publishing.publications.mavenJava
+}
+
+nexusPublishing {
+    repositories {
+        sonatype()
+    }
+}

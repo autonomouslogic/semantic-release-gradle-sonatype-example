@@ -1,0 +1,20 @@
+{
+  "dryRun": true,
+  "branches": ["main"],
+  "tagFormat": "${version}",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["@semantic-release/exec", {
+      "verifyConditionsCmd": "./gradlew signMavenJavaPublication",
+      "publishCmd": "./gradlew publishToSonatype closeSonatypeStagingRepository"
+    }],
+    ["@semantic-release/github", {
+      "assets": [
+        {"path": "build/libs/semantic-release-gradle-sonatype-example-${nextRelease.version}.jar"},
+        {"path": "build/libs/semantic-release-gradle-sonatype-example-${nextRelease.version}-sources.jar"},
+        {"path": "build/libs/semantic-release-gradle-sonatype-example-${nextRelease.version}-javadoc.jar"}
+      ]
+    }]
+  ]
+}
