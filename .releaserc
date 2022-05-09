@@ -14,7 +14,7 @@
     }],
     ["@semantic-release/exec", {
       "verifyConditionsCmd": "./gradlew signMavenJavaPublication",
-      "publishCmd": "./gradlew clean publishToSonatype closeSonatypeStagingRepository"
+      "publishCmd": "./publish.sh ${nextRelease.version}"
     }],
     ["@semantic-release/github", {
       "assets": [
