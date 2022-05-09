@@ -9,6 +9,9 @@
     ["@semantic-release/changelog", {
       "changelogTitle": "Changelog Title"
     }],
+    ["@semantic-release/git", {
+      "assets": ["CHANGELOG.md"]
+    }],
     ["@semantic-release/exec", {
       "verifyConditionsCmd": "./gradlew signMavenJavaPublication",
       "publishCmd": "./gradlew clean publishToSonatype closeSonatypeStagingRepository"
