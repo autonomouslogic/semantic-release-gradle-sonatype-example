@@ -1,5 +1,6 @@
 {
-  "dryRun": true,
+  "dryRun": false,
+  "ci": false,
   "branches": ["main"],
   "tagFormat": "${version}",
   "plugins": [
