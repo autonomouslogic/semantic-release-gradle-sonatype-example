@@ -13,7 +13,7 @@
       "assets": ["CHANGELOG.md"]
     }],
     ["@semantic-release/exec", {
-      "verifyConditionsCmd": "./gradlew signMavenJavaPublication",
+      "verifyConditionsCmd": "./gradlew signMavenJavaPublication --stacktrace",
       "publishCmd": "./publish.sh ${nextRelease.version}"
     }],
     ["@semantic-release/github", {
