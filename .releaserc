@@ -1,26 +1,44 @@
 {
   "dryRun": false,
   "ci": false,
-  "branches": ["main"],
+  "branches": [
+    "main"
+  ],
   "tagFormat": "${version}",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
-    ["@semantic-release/changelog", {
-      "changelogTitle": "Changelog Title"
-    }],
-    ["@semantic-release/git", {
-      "assets": ["CHANGELOG.md"]
-    }],
-    ["@semantic-release/exec", {
-      "verifyConditionsCmd": "./gradlew signMavenJavaPublication --stacktrace",
-      "publishCmd": "./publish.sh ${nextRelease.version}"
-    }],
-    ["@semantic-release/github", {
-      "assets": [
-        {"path": "build/libs/semantic-release-gradle-sonatype-example-*.jar"}
-      ],
-      "addReleases": "bottom"
-    }]
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogTitle": "Changelog Title"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "CHANGELOG.md"
+        ]
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "verifyConditionsCmd": "./gradlew signMavenJavaPublication --stacktrace",
+        "publishCmd": "./publish.sh ${nextRelease.version}"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "path": "build/libs/semantic-release-gradle-sonatype-example-*.jar"
+          }
+        ],
+        "addReleases": "bottom"
+      }
+    ]
   ]
 }
