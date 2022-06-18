@@ -1,5 +1,7 @@
 Changelog Title
 
+## [0.3.7](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.3.6...0.3.7) (2022-06-18)
+
 ## [0.3.6](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.3.5...0.3.6) (2022-06-18)
 
 ## [0.3.5](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.3.4...0.3.5) (2022-06-14)
