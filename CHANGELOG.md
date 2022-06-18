@@ -1,5 +1,17 @@
 Changelog Title
 
+## [0.4.0](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.3.7...0.4.0) (2022-06-18)
+
+
+### Features
+
+* custom types. ([04a599f](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/04a599f137f27de5a6ea0b540757e170cdfe4701))
+
+
+### Miscellaneous Chores
+
+* **deps:** added conventional commits plugin. ([86f7496](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/86f749627ac60f26c8d6ebfb479d1df52ca17c66))
+
 ## [0.3.7](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.3.6...0.3.7) (2022-06-18)
 
 ## [0.3.6](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.3.5...0.3.6) (2022-06-18)
