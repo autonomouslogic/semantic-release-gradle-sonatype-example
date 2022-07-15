@@ -1,5 +1,12 @@
 Changelog Title
 
+## [0.4.9](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.8...0.4.9) (2022-07-15)
+
+
+### Miscellaneous Chores
+
+* **deps:** update all non-major dependencies ([#27](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/27)) ([21115f3](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/21115f3c414a77769ee4b13599552a1a2992f0ca))
+
 ## [0.4.8](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.7...0.4.8) (2022-07-14)
 
 
