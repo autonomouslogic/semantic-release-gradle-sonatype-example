@@ -1,5 +1,19 @@
 Changelog Title
 
+## [0.4.18](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.17...0.4.18) (2022-08-23)
+
+
+### Build System
+
+* changed shared config repo name. ([d24e085](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/d24e08594c0bad336f61216b110145244eb39851))
+* reverted test downgrades. ([d943f08](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/d943f084d2289b6575137dc25be7fda6119f1284))
+* test Gradle downgrade. ([90c6fee](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/90c6fee55cc31bab2e711c2ef88bb0e7805d57bc))
+
+
+### Miscellaneous Chores
+
+* **deps:** update all non-major dependencies docker tags ([#37](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/37)) ([ab73b83](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/ab73b839f282eb53c830a499efb4330334a859c6))
+
 ## [0.4.17](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.16...0.4.17) (2022-08-11)
 
 
