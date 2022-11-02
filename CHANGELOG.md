@@ -1,5 +1,12 @@
 Changelog Title
 
+## [0.4.25](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.24...0.4.25) (2022-11-02)
+
+
+### Miscellaneous Chores
+
+* **deps:** update ghcr.io/containerbase/buildpack docker tag to v5 ([#45](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/45)) ([cdfa2ac](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/cdfa2ac7866aa1dc580c826dfa1157ae31e4184d))
+
 ## [0.4.24](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.23...0.4.24) (2022-10-03)
 
 
