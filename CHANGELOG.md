@@ -1,5 +1,13 @@
 Changelog Title
 
+## [0.4.29](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.28...0.4.29) (2023-01-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency semantic-release to v20 ([#50](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/50)) ([9cb556c](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/9cb556c3216b82aaff3c95439158b412f7b44ffd))
+* **deps:** update plugin org.danilopianini.git-sensitive-semantic-versioning-gradle-plugin to v1 ([#49](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/49)) ([ecd2e84](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/ecd2e84be6d9227e30b01088badff6b18407d71f))
+
 ## [0.4.28](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.27...0.4.28) (2023-01-02)
 
 
