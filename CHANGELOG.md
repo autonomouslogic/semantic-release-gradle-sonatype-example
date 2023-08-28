@@ -1,5 +1,14 @@
 Changelog Title
 
+## [0.4.38](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.37...0.4.38) (2023-08-28)
+
+
+### Miscellaneous Chores
+
+* **deps:** replace ghcr.io/containerbase/buildpack docker tag with ghcr.io/containerbase/base 6.9.0 ([#55](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/55)) ([d8e7a54](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/d8e7a547025442d5b86f5586e3bc6771cb149236))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v7 ([#63](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/63)) ([5a37b52](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/5a37b5206de4720180eb8b1170baac3151a344df))
+* **deps:** update dependency gradle to v8 ([#53](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/53)) ([948d91c](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/948d91cbbe2415a4c897b9c59389343a3a1d3462))
+
 ## [0.4.37](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.36...0.4.37) (2023-08-07)
 
 
