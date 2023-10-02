@@ -1,5 +1,12 @@
 Changelog Title
 
+## [0.4.39](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.38...0.4.39) (2023-10-02)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v7.0.2 ([#66](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/66)) ([7a46e33](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/7a46e3309c0a8680f0f02802dbb4cf4b2ad565bd))
+
 ## [0.4.38](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.37...0.4.38) (2023-08-28)
 
 
