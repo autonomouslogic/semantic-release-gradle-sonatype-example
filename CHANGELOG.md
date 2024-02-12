@@ -1,5 +1,17 @@
 Changelog Title
 
+## [0.4.43](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.42...0.4.43) (2024-02-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/cache action to v4 ([#72](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/72)) ([c79dbe5](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/c79dbe5143de6a79076f2bfd2f02cbb784dc04f2))
+* **deps:** update actions/checkout action to v4 ([#65](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/65)) ([aee79fa](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/aee79faa109994ac7522de490d0217a87ea52433))
+* **deps:** update actions/setup-java action to v4 ([#69](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/69)) ([a967e4c](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/a967e4c4f01ec7bd88d17cab072697d16b4ef36b))
+* **deps:** update ghcr.io/containerbase/base docker tag to v9 ([#64](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/64)) ([698bfac](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/698bfacca781d5bb7724ce589c83d73d67a6dd33))
+* **deps:** update plugin org.danilopianini.git-sensitive-semantic-versioning-gradle-plugin to v3 ([#73](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/73)) ([07a3342](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/07a3342a7eef0b1004ad3d6bfa902dee9c1566dc))
+* **deps:** update semantic-release monorepo (major) ([#56](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/56)) ([c41a108](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/c41a10854058491e629fa29d1cd5bbd1910d7f65))
+
 ## [0.4.42](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.41...0.4.42) (2024-02-05)
 
 
