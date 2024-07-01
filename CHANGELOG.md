@@ -1,5 +1,12 @@
 Changelog Title
 
+## [0.4.48](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.47...0.4.48) (2024-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies to v5.10.3 ([#83](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/83)) ([4f9ffab](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/4f9ffab06f03b648d1df379baef74fa6c9a80330))
+
 ## [0.4.47](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.46...0.4.47) (2024-06-03)
 
 
