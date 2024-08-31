@@ -1,5 +1,14 @@
 Changelog Title
 
+## [0.4.50](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.49...0.4.50) (2024-08-31)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v8 ([#80](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/80)) ([91121bb](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/91121bb2f6061309c936ba4d24642132d5ebe26f))
+* **deps:** update ghcr.io/containerbase/base docker tag to v11 ([#84](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/84)) ([17dd8d1](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/17dd8d1c1304419281c5caeeaa4ee269902ae832))
+* **deps:** update plugin io.github.gradle-nexus.publish-plugin to v2 ([#79](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/issues/79)) ([a415ec2](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/commit/a415ec22ee960229e089e1e18acebf0814d00648))
+
 ## [0.4.49](https://github.com/autonomouslogic/semantic-release-gradle-sonatype-example/compare/0.4.48...0.4.49) (2024-08-05)
 
 
