@@ -2,7 +2,7 @@
 # https://github.com/containerbase/java/blob/main/Dockerfile
 # https://github.com/renovatebot/docker-renovate-full/blob/main/Dockerfile
 
-FROM ghcr.io/containerbase/base:11.11.49
+FROM ghcr.io/containerbase/base:11.11.54
 
 # renovate: datasource=node
 RUN install-tool node v14.19.2
